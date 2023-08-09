@@ -1,0 +1,16 @@
+.componentContainer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 48px;
+}
+.logo {
+  width: 160px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}

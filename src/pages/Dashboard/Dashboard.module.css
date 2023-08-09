@@ -1,0 +1,25 @@
+.pageContainer {
+  padding-left: 5%;
+  width: 90%;
+}
+.welcomeText {
+  color: rgba(0, 0, 0, 0.86);
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cardsContainer {
+  margin-top: 1.12rem;
+  display: flex;
+  gap: 1.44rem;
+}
+.quickActionTitle {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

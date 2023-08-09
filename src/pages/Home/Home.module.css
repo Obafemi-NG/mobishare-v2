@@ -1,0 +1,99 @@
+.pageContainer {
+  position: relative;
+}
+.pageContent {
+  max-width: 1200px;
+  padding: 0px 48px;
+  margin: 0 auto;
+}
+.top {
+  height: 85vh;
+}
+.left {
+  width: 48%;
+  top: 50%;
+  transform: translate(0, -50%);
+  position: relative;
+}
+.title {
+  color: #00102f;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.subTitle {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 155%;
+  width: 60%;
+  margin-top: 8px;
+}
+.exchangeContainer {
+  padding: 20px 24px;
+  border: 1px solid #9bff00;
+  margin-top: 18px;
+  border-radius: 6px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rate {
+  color: rgba(0, 0, 0, 0.75);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21.773px;
+  margin-bottom: 8px;
+}
+.conversionDetails {
+  display: flex;
+  flex-direction: column;
+}
+.inputsContainer {
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+
+.bottomTextContainer {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.bottomText {
+  color: rgba(0, 0, 0, 0.8);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.heroIcon {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -20%);
+  right: 0;
+}
+
+.right {
+  position: absolute;
+  width: 40%;
+  /* height: 500px; */
+  right: 0;
+  /* top: 0; */
+  top: 24px;
+}
+.heroImage {
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,81 @@
+.footerContainer {
+  padding: 61px 0px;
+  max-width: 1200px;
+  margin: auto;
+}
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+}
+.footerTitle {
+  width: 60%;
+  margin-top: 24px;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footerLinks {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+.linksTitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 146.02%;
+  color: #000;
+  margin-bottom: 24px;
+}
+.link {
+  margin-bottom: 16px;
+}
+.footerLink {
+  color: #000;
+}
+.footerBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 72px;
+}
+.copyrightText {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 480px) and (max-width: 900px) {
+  .footerLinks {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footerContainer {
+    padding: 24px 12px;
+  }
+  .footerTitle {
+    width: 85%;
+    margin-top: 12px;
+  }
+  .logo {
+    width: 150px;
+  }
+  .footerTop {
+    flex-direction: column;
+  }
+  .footerLinks {
+    width: 100%;
+    margin: 0;
+    margin-top: 32px;
+    justify-content: space-around;
+  }
+  .footerBottom {
+    margin-top: 32px;
+    flex-direction: column;
+  }
+  .copyrightText {
+    text-align: center;
+  }
+  .gatewayIcons {
+    margin-top: 16px;
+  }
+}

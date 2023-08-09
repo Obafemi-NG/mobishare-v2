@@ -1,0 +1,72 @@
+.componentContainer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 50%;
+  justify-content: center;
+  padding: 24px 0px;
+}
+.searchInputContainer {
+  padding: 8px 16px;
+  background-color: #f1f1f1;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.searchInput {
+  font-size: 18px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #565658;
+}
+.searchInput::placeholder {
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 600;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.accountImageContainer {
+  padding: 8px;
+}
+.notificationContainer {
+  padding: 8px 10px;
+}
+.notificationContainer,
+.accountImageContainer {
+  border-radius: 50%;
+  background-color: rgba(219, 231, 255, 0.7);
+}
+.accountDetailContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.initials {
+  font-weight: 700;
+  color: #0e5ffe;
+}
+.name {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.title {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

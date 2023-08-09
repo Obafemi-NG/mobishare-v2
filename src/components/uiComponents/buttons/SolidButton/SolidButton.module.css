@@ -1,0 +1,16 @@
+.btn {
+  padding: 8px 28px;
+  border: 1px solid #0e5ffe;
+  background-color: #0e5ffe;
+  color: white;
+  border-radius: 6px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+.bigBtn {
+  padding: 14px 28px;
+}
+.btn:hover {
+  cursor: pointer;
+}
